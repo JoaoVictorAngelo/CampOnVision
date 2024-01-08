@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+
+
+header {
+    background-color: #ffffff;
+    padding: 0px 0;
+}
+
+header img {
+    height: 80px;
+    margin-left: 10px;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color:#000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section h2,
+section h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color:rgba(255, 223, 0, 1);
+    margin-bottom: 18px;
+    margin-top: 16px;
+}
+
+section p {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+#inscreva-se {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: gray;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(94, 92, 92);
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.social-links img {
+    height: 28px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 30px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer {
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px;
+    text-align: center;
+}
